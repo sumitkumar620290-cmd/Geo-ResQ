@@ -1,0 +1,49 @@
+# Large binary / hackathon files
+files for hackathon/
+*.zip
+*.pdf
+*.hgt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# Data & Models (too large for git)
+data/
+models/
+*.pkl
+*.joblib
+*.h5
+*.csv
+*.geojson
+*.tif
+*.nc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Env files
+.env
+.env.*
+!.env.example
